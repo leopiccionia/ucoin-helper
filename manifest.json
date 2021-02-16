@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "uCoin Helper",
+  "description": "An unofficial helper for filling uCoin tasks.",
+  "version": "0.1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.ucoin.net/img-compare"],
+      "js": ["src/content/img-compare.js"]
+    },
+    {
+      "matches": ["https://*.ucoin.net/img-side"],
+      "js": ["src/content/img-side.js"]
+    },
+    {
+      "matches": ["https://*.ucoin.net/img-mgr"],
+      "js": ["src/content/img-mgr.js"]
+    }
+  ]
+}
