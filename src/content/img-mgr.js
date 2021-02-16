@@ -12,9 +12,9 @@ const setStep = (nextStep) => {
 }
 
 const setOption = (option) => {
-  const input = fieldset().elements[option]
-  if (input) {
-    input.click()
+  const radio = fieldset().elements[option]
+  if (radio) {
+    radio.click()
     setStep((step + 1) % 6)
   }
 }
