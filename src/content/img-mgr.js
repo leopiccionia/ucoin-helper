@@ -45,7 +45,7 @@ if (form) {
     else if (key === 'd' || key === 'arrowright') {
       setOption(2) /* Select third option */
     }
-    if (key === 'w' || key === 'arrowup') {
+    else if (key === 'w' || key === 'arrowup') {
       previousStep() /* Return to previous step */
     }
     else if (key === 'enter') {
