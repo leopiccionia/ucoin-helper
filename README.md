@@ -1,6 +1,6 @@
 # uCoin Helper
 
-[uCoin.net](https://ucoin.net/) is an online coin catalog and a network for coin collectors. The site allows users to collect points doing some tasks (classifying images, etc.), and those points can be exchanged for [premium membership](https://ucoin.net/pro).
+[uCoin.net](https://ucoin.net/) is an online coin catalog and a network for coin collectors. The site allows users to collect points doing some tasks (classifying images, etc.). You can exchange those points for [premium membership](https://ucoin.net/pro).
 
 This repo contains a Chrome extension that adds a keyboard-driven way to fulfill those tasks, aiming for better speed and reliability than the usual, mouse-driven way.
 
@@ -10,7 +10,7 @@ This Chrome extension is **unofficial** and 100% unaffiliated with uCoin.net. **
 
 ### Side ID
 
-The task consists of verifying if the [obverse and reverse](https://en.wikipedia.org/wiki/Obverse_and_reverse) of the coin are correctly labeled, using the user's expertise and often visual and/or textual cues.
+The task consists of verifying if the [obverse and reverse](https://en.wikipedia.org/wiki/Obverse_and_reverse) of the coin are correctly labeled, using the user's expertise and often visual or textual cues.
 
 The extension provides the following keyboard shortcuts:
 
@@ -19,7 +19,7 @@ The extension provides the following keyboard shortcuts:
 * `D`, `→`: The sides are incorrectly labeled (obverse is on the right)
 * `E`: Report an error
 
-The intuition is pointing to which side the obverse is located.
+The intuition is pointing to which side is the obverse.
 
 ### Comparison
 
@@ -36,7 +36,7 @@ The intuition is pointing to the side that contains the best set of photographs.
 
 ### Control
 
-This task consists of classifying one set of photographs (obverse + reverse) according to six criteria. This is the most time-consuming task, so it rewards the most points to the user.
+The task consists of classifying one set of photographs (obverse + reverse) according to six criteria. This task is the most time-consuming, so it rewards the most points to the user.
 
 The extension provides the following keyboard shortcuts:
 
