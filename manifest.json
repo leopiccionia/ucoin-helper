@@ -18,12 +18,16 @@
       "js": ["src/content/img-compare.js"]
     },
     {
+      "matches": ["https://*.ucoin.net/img-mgr"],
+      "js": ["src/content/img-mgr.js"]
+    },
+    {
       "matches": ["https://*.ucoin.net/img-side"],
       "js": ["src/content/img-side.js"]
     },
     {
-      "matches": ["https://*.ucoin.net/img-mgr"],
-      "js": ["src/content/img-mgr.js"]
+      "matches": ["https://*.ucoin.net/img-theme"],
+      "js": ["src/content/img-theme.js"]
     }
   ]
 }

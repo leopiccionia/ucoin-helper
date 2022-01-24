@@ -34,6 +34,17 @@ The extension provides the following keyboard shortcuts:
 
 The intuition is pointing to the side that contains the best set of photographs.
 
+### Theme
+
+The task consists of choosing if the [obverse, reverse, or both sides](https://en.wikipedia.org/wiki/Obverse_and_reverse) of the coin contains depictions of the given theme (like "Animals", "Coat of Arms", etc.), using visual cues.
+
+* `A`, `←`: The theme appears only on the obverse
+* `S`, `↓`: The theme appears on both the obverse and the reverse
+* `D`, `→`: The theme appears only on the reverse
+* `E`: Report an error
+
+The intuition is pointing to the side where the theme appears.
+
 ### Control
 
 The task consists of classifying one set of photographs (obverse + reverse) according to six criteria. This task is the most time-consuming, so it rewards the most points to the user.
